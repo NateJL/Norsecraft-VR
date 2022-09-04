@@ -1,0 +1,16 @@
+{
+	"numberOfQuests": 1,
+	"quests":[
+	{
+		"questID": 0,
+		"questName": "Coconut Bounty",
+		"questText": "I am low on coconuts for my famous coconut rum. Bring me 5 coconuts and I can give you a little something for your efforts.",
+		"goldReward": 10,
+		"experienceReward": 50,
+		"isAccepted": false,
+		"isCompleted": false,
+		"itemName": ["Coconut"],
+		"itemCount": [5],
+		"itemSoFar": [0]
+	}]
+}

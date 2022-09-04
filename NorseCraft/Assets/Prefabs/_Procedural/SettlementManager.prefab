@@ -1,0 +1,781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1181772173635454}
+  m_IsPrefabAsset: 1
+--- !u!1 &1181772173635454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4684394368973632}
+  - component: {fileID: 114512410277434324}
+  m_Layer: 0
+  m_Name: SettlementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4684394368973632
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181772173635454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114512410277434324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181772173635454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6416e0e510bc324d8fa66349cb1b0af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showWireframe: 0
+  showIndex: 0
+  showVerts: 1
+  showEdges: 1
+  showStreets: 1
+  showBuildings: 1
+  showVertDictionary: 0
+  data:
+    center: {x: 40, y: 0, z: 40}
+    vertices:
+    - tilePosition: {x: 10, y: 0, z: 10}
+      worldPosition: {x: 10, y: 0, z: 10}
+      tilePos2D: {x: 10, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 10}
+      worldPosition: {x: 20, y: 0, z: 10}
+      tilePos2D: {x: 20, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 10}
+      worldPosition: {x: 60, y: 0, z: 10}
+      tilePos2D: {x: 60, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 10}
+      worldPosition: {x: 70, y: 0, z: 10}
+      tilePos2D: {x: 70, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 10}
+      worldPosition: {x: 80, y: 0, z: 10}
+      tilePos2D: {x: 80, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 20}
+      worldPosition: {x: 10, y: 0, z: 20}
+      tilePos2D: {x: 10, y: 20}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 20}
+      worldPosition: {x: 20, y: 0, z: 20}
+      tilePos2D: {x: 20, y: 20}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 20}
+      worldPosition: {x: 60, y: 0, z: 20}
+      tilePos2D: {x: 60, y: 20}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 20}
+      worldPosition: {x: 70, y: 0, z: 20}
+      tilePos2D: {x: 70, y: 20}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 20}
+      worldPosition: {x: 80, y: 0, z: 20}
+      tilePos2D: {x: 80, y: 20}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 60}
+      worldPosition: {x: 10, y: 0, z: 60}
+      tilePos2D: {x: 10, y: 60}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 60}
+      worldPosition: {x: 20, y: 0, z: 60}
+      tilePos2D: {x: 20, y: 60}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 60}
+      worldPosition: {x: 60, y: 0, z: 60}
+      tilePos2D: {x: 60, y: 60}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 60}
+      worldPosition: {x: 70, y: 0, z: 60}
+      tilePos2D: {x: 70, y: 60}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 60}
+      worldPosition: {x: 80, y: 0, z: 60}
+      tilePos2D: {x: 80, y: 60}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 70}
+      worldPosition: {x: 10, y: 0, z: 70}
+      tilePos2D: {x: 10, y: 70}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 70}
+      worldPosition: {x: 20, y: 0, z: 70}
+      tilePos2D: {x: 20, y: 70}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 70}
+      worldPosition: {x: 60, y: 0, z: 70}
+      tilePos2D: {x: 60, y: 70}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 70}
+      worldPosition: {x: 70, y: 0, z: 70}
+      tilePos2D: {x: 70, y: 70}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 70}
+      worldPosition: {x: 80, y: 0, z: 70}
+      tilePos2D: {x: 80, y: 70}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 80}
+      worldPosition: {x: 10, y: 0, z: 80}
+      tilePos2D: {x: 10, y: 80}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 80}
+      worldPosition: {x: 20, y: 0, z: 80}
+      tilePos2D: {x: 20, y: 80}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 80}
+      worldPosition: {x: 60, y: 0, z: 80}
+      tilePos2D: {x: 60, y: 80}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 80}
+      worldPosition: {x: 70, y: 0, z: 80}
+      tilePos2D: {x: 70, y: 80}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 80}
+      worldPosition: {x: 80, y: 0, z: 80}
+      tilePos2D: {x: 80, y: 80}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    edgeVerts:
+    - tilePosition: {x: 90, y: 0, z: 90}
+      worldPosition: {x: 90, y: 0, z: 90}
+      tilePos2D: {x: 90, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 5
+    - tilePosition: {x: 80, y: 0, z: 90}
+      worldPosition: {x: 80, y: 0, z: 90}
+      tilePos2D: {x: 80, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 70, y: 0, z: 90}
+      worldPosition: {x: 70, y: 0, z: 90}
+      tilePos2D: {x: 70, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 60, y: 0, z: 90}
+      worldPosition: {x: 60, y: 0, z: 90}
+      tilePos2D: {x: 60, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 50, y: 0, z: 90}
+      worldPosition: {x: 50, y: 0, z: 90}
+      tilePos2D: {x: 50, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 40, y: 0, z: 90}
+      worldPosition: {x: 40, y: 0, z: 90}
+      tilePos2D: {x: 40, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 30, y: 0, z: 90}
+      worldPosition: {x: 30, y: 0, z: 90}
+      tilePos2D: {x: 30, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 20, y: 0, z: 90}
+      worldPosition: {x: 20, y: 0, z: 90}
+      tilePos2D: {x: 20, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 10, y: 0, z: 90}
+      worldPosition: {x: 10, y: 0, z: 90}
+      tilePos2D: {x: 10, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 1
+    - tilePosition: {x: 0, y: 0, z: 90}
+      worldPosition: {x: 0, y: 0, z: 90}
+      tilePos2D: {x: 0, y: 90}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 6
+    - tilePosition: {x: 90, y: 0, z: 80}
+      worldPosition: {x: 90, y: 0, z: 80}
+      tilePos2D: {x: 90, y: 80}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 80}
+      worldPosition: {x: 0, y: 0, z: 80}
+      tilePos2D: {x: 0, y: 80}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 70}
+      worldPosition: {x: 90, y: 0, z: 70}
+      tilePos2D: {x: 90, y: 70}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 70}
+      worldPosition: {x: 0, y: 0, z: 70}
+      tilePos2D: {x: 0, y: 70}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 60}
+      worldPosition: {x: 90, y: 0, z: 60}
+      tilePos2D: {x: 90, y: 60}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 60}
+      worldPosition: {x: 0, y: 0, z: 60}
+      tilePos2D: {x: 0, y: 60}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 50}
+      worldPosition: {x: 90, y: 0, z: 50}
+      tilePos2D: {x: 90, y: 50}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 50}
+      worldPosition: {x: 0, y: 0, z: 50}
+      tilePos2D: {x: 0, y: 50}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 40}
+      worldPosition: {x: 90, y: 0, z: 40}
+      tilePos2D: {x: 90, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 40}
+      worldPosition: {x: 0, y: 0, z: 40}
+      tilePos2D: {x: 0, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 30}
+      worldPosition: {x: 90, y: 0, z: 30}
+      tilePos2D: {x: 90, y: 30}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 30}
+      worldPosition: {x: 0, y: 0, z: 30}
+      tilePos2D: {x: 0, y: 30}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 20}
+      worldPosition: {x: 90, y: 0, z: 20}
+      tilePos2D: {x: 90, y: 20}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 20}
+      worldPosition: {x: 0, y: 0, z: 20}
+      tilePos2D: {x: 0, y: 20}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 10}
+      worldPosition: {x: 90, y: 0, z: 10}
+      tilePos2D: {x: 90, y: 10}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 3
+    - tilePosition: {x: 0, y: 0, z: 10}
+      worldPosition: {x: 0, y: 0, z: 10}
+      tilePos2D: {x: 0, y: 10}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 4
+    - tilePosition: {x: 90, y: 0, z: 0}
+      worldPosition: {x: 90, y: 0, z: 0}
+      tilePos2D: {x: 90, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 7
+    - tilePosition: {x: 80, y: 0, z: 0}
+      worldPosition: {x: 80, y: 0, z: 0}
+      tilePos2D: {x: 80, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 70, y: 0, z: 0}
+      worldPosition: {x: 70, y: 0, z: 0}
+      tilePos2D: {x: 70, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 60, y: 0, z: 0}
+      worldPosition: {x: 60, y: 0, z: 0}
+      tilePos2D: {x: 60, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 50, y: 0, z: 0}
+      worldPosition: {x: 50, y: 0, z: 0}
+      tilePos2D: {x: 50, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 40, y: 0, z: 0}
+      worldPosition: {x: 40, y: 0, z: 0}
+      tilePos2D: {x: 40, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 30, y: 0, z: 0}
+      worldPosition: {x: 30, y: 0, z: 0}
+      tilePos2D: {x: 30, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 20, y: 0, z: 0}
+      worldPosition: {x: 20, y: 0, z: 0}
+      tilePos2D: {x: 20, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 10, y: 0, z: 0}
+      worldPosition: {x: 10, y: 0, z: 0}
+      tilePos2D: {x: 10, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 2
+    - tilePosition: {x: 0, y: 0, z: 0}
+      worldPosition: {x: 0, y: 0, z: 0}
+      tilePos2D: {x: 0, y: 0}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 1
+      edgeFace: 8
+    streetVerts:
+    - tilePosition: {x: 40, y: 0, z: 80}
+      worldPosition: {x: 40, y: 0, z: 80}
+      tilePos2D: {x: 40, y: 80}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 70}
+      worldPosition: {x: 40, y: 0, z: 70}
+      tilePos2D: {x: 40, y: 70}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 60}
+      worldPosition: {x: 40, y: 0, z: 60}
+      tilePos2D: {x: 40, y: 60}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 50}
+      worldPosition: {x: 40, y: 0, z: 50}
+      tilePos2D: {x: 40, y: 50}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 40}
+      worldPosition: {x: 80, y: 0, z: 40}
+      tilePos2D: {x: 80, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 40}
+      worldPosition: {x: 70, y: 0, z: 40}
+      tilePos2D: {x: 70, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 40}
+      worldPosition: {x: 60, y: 0, z: 40}
+      tilePos2D: {x: 60, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 40}
+      worldPosition: {x: 50, y: 0, z: 40}
+      tilePos2D: {x: 50, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 40}
+      worldPosition: {x: 40, y: 0, z: 40}
+      tilePos2D: {x: 40, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 40}
+      worldPosition: {x: 30, y: 0, z: 40}
+      tilePos2D: {x: 30, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 40}
+      worldPosition: {x: 20, y: 0, z: 40}
+      tilePos2D: {x: 20, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 40}
+      worldPosition: {x: 10, y: 0, z: 40}
+      tilePos2D: {x: 10, y: 40}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 30}
+      worldPosition: {x: 40, y: 0, z: 30}
+      tilePos2D: {x: 40, y: 30}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 20}
+      worldPosition: {x: 40, y: 0, z: 20}
+      tilePos2D: {x: 40, y: 20}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 40, y: 0, z: 10}
+      worldPosition: {x: 40, y: 0, z: 10}
+      tilePos2D: {x: 40, y: 10}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    buildingVerts:
+    - tilePosition: {x: 50, y: 0, z: 80}
+      worldPosition: {x: 50, y: 0, z: 80}
+      tilePos2D: {x: 50, y: 80}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 80}
+      worldPosition: {x: 30, y: 0, z: 80}
+      tilePos2D: {x: 30, y: 80}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 70}
+      worldPosition: {x: 50, y: 0, z: 70}
+      tilePos2D: {x: 50, y: 70}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 70}
+      worldPosition: {x: 30, y: 0, z: 70}
+      tilePos2D: {x: 30, y: 70}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 60}
+      worldPosition: {x: 50, y: 0, z: 60}
+      tilePos2D: {x: 50, y: 60}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 60}
+      worldPosition: {x: 30, y: 0, z: 60}
+      tilePos2D: {x: 30, y: 60}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 50}
+      worldPosition: {x: 80, y: 0, z: 50}
+      tilePos2D: {x: 80, y: 50}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 50}
+      worldPosition: {x: 70, y: 0, z: 50}
+      tilePos2D: {x: 70, y: 50}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 50}
+      worldPosition: {x: 60, y: 0, z: 50}
+      tilePos2D: {x: 60, y: 50}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 50}
+      worldPosition: {x: 50, y: 0, z: 50}
+      tilePos2D: {x: 50, y: 50}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 50}
+      worldPosition: {x: 30, y: 0, z: 50}
+      tilePos2D: {x: 30, y: 50}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 50}
+      worldPosition: {x: 20, y: 0, z: 50}
+      tilePos2D: {x: 20, y: 50}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 50}
+      worldPosition: {x: 10, y: 0, z: 50}
+      tilePos2D: {x: 10, y: 50}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 80, y: 0, z: 30}
+      worldPosition: {x: 80, y: 0, z: 30}
+      tilePos2D: {x: 80, y: 30}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 70, y: 0, z: 30}
+      worldPosition: {x: 70, y: 0, z: 30}
+      tilePos2D: {x: 70, y: 30}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 60, y: 0, z: 30}
+      worldPosition: {x: 60, y: 0, z: 30}
+      tilePos2D: {x: 60, y: 30}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 30}
+      worldPosition: {x: 50, y: 0, z: 30}
+      tilePos2D: {x: 50, y: 30}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 30}
+      worldPosition: {x: 30, y: 0, z: 30}
+      tilePos2D: {x: 30, y: 30}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 20, y: 0, z: 30}
+      worldPosition: {x: 20, y: 0, z: 30}
+      tilePos2D: {x: 20, y: 30}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 10, y: 0, z: 30}
+      worldPosition: {x: 10, y: 0, z: 30}
+      tilePos2D: {x: 10, y: 30}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 20}
+      worldPosition: {x: 50, y: 0, z: 20}
+      tilePos2D: {x: 50, y: 20}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 20}
+      worldPosition: {x: 30, y: 0, z: 20}
+      tilePos2D: {x: 30, y: 20}
+      isOccupied: 1
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 50, y: 0, z: 10}
+      worldPosition: {x: 50, y: 0, z: 10}
+      tilePos2D: {x: 50, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    - tilePosition: {x: 30, y: 0, z: 10}
+      worldPosition: {x: 30, y: 0, z: 10}
+      tilePos2D: {x: 30, y: 10}
+      isOccupied: 0
+      component: {fileID: 0}
+      isEdge: 0
+      edgeFace: 0
+    props: []
+    size: 1
+  buildingGenerator: {fileID: 1624464510688918, guid: 396b1fe31bac7704087672d2b89ac1a7,
+    type: 2}
+  grassPrefab: {fileID: 128328, guid: bc6b7d6f0fb98544a873a3d69729fe66, type: 2}
+  cobblestonePrefab: {fileID: 1282186814179114, guid: c8abe98d2c3472b49a39099c4ffcb052,
+    type: 2}
+  walls:
+    groupName: New Group
+    prefabs:
+    - {fileID: 1953580074897066, guid: a1f8f4a7a9c125e4fa9036af953c12cd, type: 2}
+    - {fileID: 1603867102643890, guid: bcc3e52a2c326bc4c95f85c42a1891ad, type: 2}
+    - {fileID: 1558874976444494, guid: fd30caf3f7d53e74b8e2855ca70f7440, type: 2}
+    - {fileID: 1756589547027014, guid: 59fdb1c64b1839942ac79bd2a0e6191b, type: 2}
+  customPrefabs: []

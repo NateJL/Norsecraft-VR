@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1060814367436496}
+  m_IsPrefabAsset: 1
+--- !u!1 &1060814367436496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4374087992114942}
+  - component: {fileID: 114325852181477920}
+  - component: {fileID: 114446266557647808}
+  - component: {fileID: 114187114846976768}
+  - component: {fileID: 114940821680320134}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1176569554962168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4806367506055936}
+  m_Layer: 0
+  m_Name: medium_ship_spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1297359022718396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4615483315624428}
+  m_Layer: 0
+  m_Name: longship_spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1409094750393824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4447940015123766}
+  - component: {fileID: 20419703008631338}
+  m_Layer: 0
+  m_Name: MapCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1748465006351672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4676964552594648}
+  m_Layer: 0
+  m_Name: PlayerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1766933117321602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4262548689357138}
+  m_Layer: 0
+  m_Name: small_ship_spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1855117710040454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4460236649077100}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4262548689357138
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1766933117321602}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.02, y: -1.5, z: 5.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4374087992114942}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4374087992114942
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060814367436496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4460236649077100}
+  - {fileID: 4262548689357138}
+  - {fileID: 4806367506055936}
+  - {fileID: 4615483315624428}
+  - {fileID: 4676964552594648}
+  - {fileID: 4447940015123766}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4447940015123766
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409094750393824}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 108, y: 700, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4374087992114942}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &4460236649077100
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855117710040454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4374087992114942}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4615483315624428
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297359022718396}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -903.36, y: 0, z: 869.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4374087992114942}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4676964552594648
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1748465006351672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 200, y: 3, z: 800}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4374087992114942}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4806367506055936
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176569554962168}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 57.5, y: -1.5, z: 263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4374087992114942}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!20 &20419703008631338
+Camera:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1409094750393824}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 104.9
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: 32d36354a6d91fd4c95c065469be8940, type: 2}
+  m_TargetDisplay: 7
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &114187114846976768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060814367436496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0114dc14efa1e94093c76f2e7db899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolParent: {fileID: 4460236649077100}
+  isReady: 0
+  pools:
+  - tag: Bullet
+    prefab: {fileID: 1282218954272738, guid: d52ea0c93d84f884b8a43cce8b34ddd1, type: 2}
+    objectType: 1
+    size: 1
+  - tag: VikingGuardStanding
+    prefab: {fileID: 1593653652228608, guid: 9f6713957efbdf144a510dfbb0b0903d, type: 2}
+    objectType: 2
+    size: 10
+  - tag: bomb_simple
+    prefab: {fileID: 1359554349042472, guid: 5bf313818f07d4542a22947960f15b17, type: 2}
+    objectType: 1
+    size: 1
+  - tag: ActiveCannonball
+    prefab: {fileID: 1863430874861122, guid: d1b0994e1cda4f047a2129109e3dd86e, type: 2}
+    objectType: 1
+    size: 1
+  - tag: bottle_gin
+    prefab: {fileID: 1592702735492834, guid: a6d7851324c0b8744aeecd07f1e25ba0, type: 2}
+    objectType: 4
+    size: 1
+  - tag: bottle_rum
+    prefab: {fileID: 1479654984021900, guid: a5e4e62540f365c418159809b02b0ca6, type: 2}
+    objectType: 4
+    size: 1
+  - tag: Double-Barrel Flintlock
+    prefab: {fileID: 1814063845373916, guid: 1823a164506c12f489ac58d3f354307a, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Rifle
+    prefab: {fileID: 1451092686902538, guid: ec1ad85d4931dba4cbf41ddfef7bf46c, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Gold-trimmed Flintlock
+    prefab: {fileID: 1365216643446288, guid: 6ffe5359200fbc7479aed62e8557cb6b, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Cutlass
+    prefab: {fileID: 1527677896170318, guid: ccf21fb44abc75a4eb0f5862462a94e2, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Scimitar
+    prefab: {fileID: 1384339926466120, guid: 77eb1eeb1ab4c394ea42efdb2a0d9de7, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Spear
+    prefab: {fileID: 1825611620278052, guid: d08a82ee7e3caff4f9e2e617cb65a998, type: 2}
+    objectType: 1
+    size: 1
+  - tag: AcceptQuestWindow
+    prefab: {fileID: 1379421111946542, guid: 26180767b81a4e547aca21844a4d3a97, type: 2}
+    objectType: 5
+    size: 10
+  - tag: CompleteQuestWindow
+    prefab: {fileID: 1379421111946542, guid: 10926b4b9938835468fa78b39a0fff6c, type: 2}
+    objectType: 5
+    size: 10
+  - tag: QuestDetailsButton
+    prefab: {fileID: 1429322415512004, guid: 59a6d92e8f645b94ba7daf7b980fde96, type: 2}
+    objectType: 5
+    size: 10
+  - tag: SmallAxe
+    prefab: {fileID: 1938578031535454, guid: 29c245122a96cf44d8f6bbe05607e80c, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Hammer
+    prefab: {fileID: 1644167788201574, guid: 701e3a4c57d60204a8eb6cbcc13e59f4, type: 2}
+    objectType: 6
+    size: 1
+  - tag: LongShipStandardHull
+    prefab: {fileID: 1904245963364424, guid: 2ab64eb6b338dd24dbfa571b88794967, type: 2}
+    objectType: 3
+    size: 1
+  - tag: LongShipStandardRudder
+    prefab: {fileID: 1954305119519406, guid: 6c7fcd2ca41e31c4dbc639d8d6a3c728, type: 2}
+    objectType: 3
+    size: 1
+  - tag: LongShipSailsYellow
+    prefab: {fileID: 1544414813466416, guid: 7239c5e4533300745985b87b94d962a7, type: 2}
+    objectType: 3
+    size: 1
+  - tag: LongShipSailsBlue
+    prefab: {fileID: 1498369929732372, guid: 2cbb893fb8a0f214fbfdf2f362684819, type: 2}
+    objectType: 3
+    size: 1
+  - tag: LongShipSailsStriped
+    prefab: {fileID: 1438239110029860, guid: 6e292f7abee9c574789d7b5837c2eb6b, type: 2}
+    objectType: 3
+    size: 1
+  - tag: LongShipSailsBoxed
+    prefab: {fileID: 1590568887894804, guid: cc44cbf50302c5d428192d558842c07a, type: 2}
+    objectType: 3
+    size: 1
+  - tag: BoatHeadBare
+    prefab: {fileID: 1228548215712618, guid: 5e083bff80ef13447aceac9a22c2e666, type: 2}
+    objectType: 3
+    size: 1
+  - tag: BoatHeadDragon
+    prefab: {fileID: 1268873809544822, guid: e8962bcb1d5ebf94089660a18fab1006, type: 2}
+    objectType: 3
+    size: 1
+  - tag: BoatHeadSeaMonster
+    prefab: {fileID: 1894118388168516, guid: d295868667f9f5b409ce18712ef68d20, type: 2}
+    objectType: 3
+    size: 1
+  - tag: FishingBobber
+    prefab: {fileID: 1686750218974692, guid: 4d0f56ca55942a54d84f10f09a10a60d, type: 2}
+    objectType: 4
+    size: 1
+  - tag: FreshFish
+    prefab: {fileID: 1657856958812126, guid: a233c60a6743b7843b3e188f8ab90e79, type: 2}
+    objectType: 4
+    size: 1
+  - tag: ChoppableTree
+    prefab: {fileID: 1807927952635724, guid: 19ff1f9b5a06c54479f123dcd7260ff7, type: 2}
+    objectType: 8
+    size: 1
+  - tag: FelledLog
+    prefab: {fileID: 1011798694464324, guid: 1e5be63ecaae0b94eb9a1d5ba2b15552, type: 2}
+    objectType: 8
+    size: 1
+  - tag: HandSaw
+    prefab: {fileID: 1579703704175678, guid: 5e6ef11c11ade7c4888d531d063c7d63, type: 2}
+    objectType: 6
+    size: 1
+  - tag: WoodcuttingAxe
+    prefab: {fileID: 1755320088450160, guid: ea26c73af8c3db342ab421fa099791a6, type: 2}
+    objectType: 6
+    size: 1
+  - tag: CraftableButton
+    prefab: {fileID: 1188695540964200, guid: ee91d3edb0c32254e9f2619b46704189, type: 2}
+    objectType: 5
+    size: 5
+  - tag: WoodChest
+    prefab: {fileID: 1440088094832042, guid: 2a77a334a329ff34cbc5e9ad4eb3ec69, type: 2}
+    objectType: 7
+    size: 1
+  - tag: IronBar
+    prefab: {fileID: 1023438896789848, guid: 7fcc4e029b6c9c446ba88d4464a1b242, type: 2}
+    objectType: 8
+    size: 1
+  - tag: GoldBar
+    prefab: {fileID: 1369645534318012, guid: 5f7275f1495bf3a4d96a730230855008, type: 2}
+    objectType: 8
+    size: 1
+  - tag: CopperBar
+    prefab: {fileID: 1229343573469362, guid: 827d16d2de7317047a021242f9c728e9, type: 2}
+    objectType: 8
+    size: 1
+  - tag: Cannonball
+    prefab: {fileID: 1913308394864634, guid: 5b0a0874c9844f644b8d537de3c1983b, type: 2}
+    objectType: 4
+    size: 1
+  - tag: FishingRod
+    prefab: {fileID: 1672674052376186, guid: 6cb73634453771d4dbd4b10be01acecf, type: 2}
+    objectType: 6
+    size: 1
+  - tag: WoodLog
+    prefab: {fileID: 1458599929835310, guid: aeab559e9bac08a47ba7211caa6dffcf, type: 2}
+    objectType: 8
+    size: 1
+  - tag: PlankSmall
+    prefab: {fileID: 1570493537940508, guid: bb499a906084ac34d85d81b4d8681ba3, type: 2}
+    objectType: 8
+    size: 1
+  - tag: PlankLarge
+    prefab: {fileID: 1110093023155582, guid: e178d0cddb9a5f245ae75335cbb6a9d0, type: 2}
+    objectType: 8
+    size: 1
+  - tag: IronOre
+    prefab: {fileID: 1278613947167922, guid: 2e79895a974335643a4cad0fe3ceb9db, type: 2}
+    objectType: 8
+    size: 1
+  - tag: GoldOre
+    prefab: {fileID: 1658725602739350, guid: 4ff8ed7011123774abff2fa711d788bd, type: 2}
+    objectType: 8
+    size: 1
+  - tag: CopperOre
+    prefab: {fileID: 1210799416196560, guid: 8727879b1e26d354f84783622513c5e4, type: 2}
+    objectType: 8
+    size: 1
+  - tag: PickAxe
+    prefab: {fileID: 1711176113199236, guid: 738543f89667bf44182bea8f524add45, type: 2}
+    objectType: 6
+    size: 1
+  - tag: WarHammerSmall
+    prefab: {fileID: 1063180393929302, guid: 8b97709d5681d5c46bdbadc60d469287, type: 2}
+    objectType: 1
+    size: 1
+  - tag: Basket
+    prefab: {fileID: 1320436116345152, guid: d77d22f61b7b75f44a77d2b5a151d6f6, type: 2}
+    objectType: 7
+    size: 1
+  - tag: Firewood
+    prefab: {fileID: 1874619670456220, guid: a75ed39f08e1bcd47ab0857f79c4a36e, type: 2}
+    objectType: 8
+    size: 1
+  - tag: CraftableCategoryButton
+    prefab: {fileID: 1095953055171942, guid: 40b818ce50a6e5049b13e56449b1e402, type: 2}
+    objectType: 5
+    size: 5
+--- !u!114 &114325852181477920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060814367436496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b822fed03146458d0028511058c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 0
+  activeScene: 0
+  craftingAreaPrefab: {fileID: 1636170285950516, guid: 970597386f1319f458ce88ac69cf0fd7,
+    type: 2}
+  zones: []
+  interiors: []
+  ships: []
+  dataManager: {fileID: 0}
+  poolManager: {fileID: 0}
+  soundManager: {fileID: 0}
+  tileManager: {fileID: 0}
+  player: {fileID: 0}
+  playerShip: {fileID: 0}
+  gameData:
+    stormstadColor: {r: 0, g: 0.5019608, b: 1, a: 0}
+    bjornheimColor: {r: 1, g: 0.3764706, b: 0, a: 0}
+    rumRunnerColor: {r: 1, g: 0.69411767, b: 0, a: 1}
+  playerSpawn: {fileID: 4676964552594648}
+  playerData:
+    name: 
+    health: 0
+    experience: 0
+    level: 0
+    hunger: 0
+    thirst: 0
+    gold: 0
+    playerShipData:
+      id: -1
+      Size: None
+      durability: 0
+      isFloating: 0
+      HullType: 
+      WheelType: 
+      SailType: 
+      FlagType: 
+    playerInventoryData:
+      leftHipItem: None
+      rightHipItem: None
+      frontHipItem: None
+      backItem: null
+    questData: []
+    reputations: 
+    skills: []
+--- !u!114 &114446266557647808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060814367436496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b478f07d4e219ef448649b269c79c878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1843969569806786, guid: 8f9df06cfd4a0ee438586f3f70d4aad3,
+    type: 2}
+  playerShipPrefab: {fileID: 1229580662796332, guid: f61a467071cbcd741a985521c29915de,
+    type: 2}
+  smallShipPrefab: {fileID: 1976938209911138, guid: 27f46789de29d18459304a585b96e13b,
+    type: 2}
+  mediumShipPrefab: {fileID: 1126110032176560, guid: c20aa1e8e87929045abc8086e15ace17,
+    type: 2}
+  largeShipPrefab: {fileID: 1486036187260896, guid: 777e036915104764f838b4c1c552e9be,
+    type: 2}
+  longshipPrefab: {fileID: 1968832632094194, guid: e5d0ee17d6c88a84cb39657e4550f56d,
+    type: 2}
+  smallShipSpawn: {fileID: 4262548689357138}
+  mediumShipSpawn: {fileID: 4806367506055936}
+  largeShipSpawn: {fileID: 4806367506055936}
+  longshipSpawn: {fileID: 4615483315624428}
+  questData: []
+  objectPool: {fileID: 0}
+--- !u!114 &114940821680320134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060814367436496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95487690e9bca1249944a600217ae504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 31de552e550e7f44d9da79d7c61242cb, type: 3}
+  - {fileID: 8300000, guid: ca2c7349bd01c8640b85c635978f818f, type: 3}
+  - {fileID: 8300000, guid: 5c0108e7a053aa04bba890260d9b2525, type: 3}
+  - {fileID: 8300000, guid: 47dd0ebe1c2bb714797f33c9abeb601f, type: 3}
+  - {fileID: 8300000, guid: 120adae25882cc64eb4846d8eda0a74f, type: 3}
+  - {fileID: 8300000, guid: 09c70204a16f7734889bc9d24be40827, type: 3}

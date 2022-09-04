@@ -1,0 +1,11 @@
+{
+	"weapons":[
+	{
+		"itemName": "SomeItem",
+		"itemValue": 15
+	},
+	{
+		"itemName": "SomeItem",
+		"itemValue": 15
+	}]
+}

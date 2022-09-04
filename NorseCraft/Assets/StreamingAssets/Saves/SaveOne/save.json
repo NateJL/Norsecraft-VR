@@ -1,0 +1,16 @@
+{
+	"playerName":"inateybear",
+	"playerLevel":1,
+	"playerExperience":0,
+	"playerGold":50,
+	"inventory":[
+	{
+		"itemName": "Coconut"	
+	},
+	{
+		"itemName": "Coconut"
+	},
+	{
+		"itemName": "Coconut"
+	}]
+}

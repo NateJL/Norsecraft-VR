@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Canvas
+  - Questgiver
+  - Button
+  - Bucket
+  - Cannonball
+  - Stone
+  - Sword
+  - Flintlock
+  - Blade
+  - InventorySlot
+  - Chest
+  - Bullet
+  - Collide
+  - EnemyBlade
+  - EnemySword
+  - Handle
+  - Floating
+  - Fire
+  - Container
+  - Tool
+  - Island
+  - Toggle
+  - Ship
+  - Ocean
+  - Interior
+  - Tree
+  - QuestBucket
+  - VertHandle
+  - Zone
+  - TileManager
+  - Tile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Tools
+  - Weapons
+  - Items
+  - Player
+  - Container
+  - Boat
+  - NPC
+  - ResourceNode
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

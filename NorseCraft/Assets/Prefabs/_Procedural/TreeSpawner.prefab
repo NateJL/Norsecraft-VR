@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1387578034230422}
+  m_IsPrefabAsset: 1
+--- !u!1 &1387578034230422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4840860422633640}
+  - component: {fileID: 114228571992096424}
+  m_Layer: 0
+  m_Name: TreeSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1745289238285860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4773845153287938}
+  - component: {fileID: 33274234156024818}
+  - component: {fileID: 23332579507758908}
+  m_Layer: 0
+  m_Name: TempTree07 (Temperate)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4773845153287938
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745289238285860}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4840860422633640}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4840860422633640
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387578034230422}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 65, y: 1.0938206, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4773845153287938}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23332579507758908
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745289238285860}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: fa8eda4ec55ee1a4e99ca991c5828dbf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33274234156024818
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745289238285860}
+  m_Mesh: {fileID: 4300000, guid: 1d5b78b508b197748b6f41f691662f54, type: 3}
+--- !u!114 &114228571992096424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387578034230422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2d547b5ce1f5149b762a382915a8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biome: 0
+  currentTree: {fileID: 1745289238285860}
+  treeIndex: 7
+  treeCollection:
+  - type: Temperate
+    trees:
+    - {fileID: 113998, guid: 1fedb5571d445274782330b0eea48e80, type: 2}
+    - {fileID: 102970, guid: f88e0c5504d699d4ebb950b8944bffcb, type: 2}
+    - {fileID: 190414, guid: 653c97bd88b4b084d87714542c43ee5a, type: 2}
+    - {fileID: 177546, guid: 247e09e89c199dd46b07af0a0a46b8ac, type: 2}
+    - {fileID: 108714, guid: 00ed5f0c12fd8d5499f54fb0096adab9, type: 2}
+    - {fileID: 133442, guid: 83c74ae0c68b5a74fb93f60e264524c1, type: 2}
+    - {fileID: 143756, guid: 6b1e970065443dd46b6854a0caf642c9, type: 2}
+    - {fileID: 111638, guid: b1906e04b9f548148b786a8582d5a1f3, type: 2}
+    - {fileID: 134014, guid: 1a2e1c6550b2a8d4590347dd6573d878, type: 2}
+    - {fileID: 170592, guid: 078efdee227ce7b40b3a095532cd4e65, type: 2}
+    - {fileID: 135026, guid: d556d30cab334dd449000218c87322ef, type: 2}
+    - {fileID: 172736, guid: e84f952cb29c0f34eabcbb22e7217911, type: 2}
+    - {fileID: 185930, guid: cd2a633be52caff4ebfdacf2f48cc9be, type: 2}
+    - {fileID: 166498, guid: 97bb6fd1f3a811c41af585fe99d31bf3, type: 2}
+    - {fileID: 142298, guid: 47c08b50e85bf0d42938d05479f0c2c5, type: 2}
+    - {fileID: 104746, guid: f32ecb45aa53d1849a30472139fa8191, type: 2}
+    - {fileID: 150190, guid: 8b9ee8d20c8c4c84f95499978c6e7d04, type: 2}
+    - {fileID: 198052, guid: d22bba548bef0b249a1c65b8320b06b2, type: 2}
+    - {fileID: 152532, guid: c07acb8b44d91a440b365eeb6578f0d9, type: 2}
+  - type: Tropical
+    trees:
+    - {fileID: 1209465242137794, guid: 3d2cbc8a7d2632746a09aabba2a15476, type: 2}
+    - {fileID: 193380, guid: cc73a13bbda6a7f4ca14d0763f94fc5e, type: 2}
+    - {fileID: 131766, guid: ff55c53b30dc5cc4a882b2c38c4bd8f2, type: 2}
+    - {fileID: 196494, guid: 55b4af7a1d7e3d646afc71ec6d561989, type: 2}
+  - type: Pine
+    trees:
+    - {fileID: 1807927952635724, guid: 19ff1f9b5a06c54479f123dcd7260ff7, type: 2}
+    - {fileID: 182652, guid: 0fa0ff3aa6d13b145ab8fd54b03b1146, type: 2}
+    - {fileID: 136856, guid: 2e038773d2d58aa4c83c615635bf660f, type: 2}
+    - {fileID: 195920, guid: b33e35f39f6c48c4bb1793bbc893acf6, type: 2}
+  - type: Snow
+    trees: []
