@@ -15,6 +15,6 @@ A procedurally generated Virtual Reality environment where the player can explor
 
 • Responsive melee combat where the player can parry blows and utilize firearms.
 
-• Interactive crafting system.
+• A custom object pooling system to avoid unnecessary object creation/deletion.
 
-• 
+• Interactive crafting system.
